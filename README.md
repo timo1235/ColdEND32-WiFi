@@ -1,4 +1,16 @@
-# ColdEND32
+# ColdEND32 - WiFi
+This is a fork of the ColdEND32 firmware https://github.com/hausen8/ColdEND32.
+
+Changes to the original firmware:
+- Changed project structure for compatibility to platformio
+- Added external libraries as platformio dependencies, they will be loaded automatically when building the project
+- Added WiFi control of input buttons and potentiometers using esp now protocol
+
+State of the project:
+- Work in progress
+
+# Original ColdEND32 README
+
 Firmware for ColdEND32 controller supporting various displays
 
 Installation and configuration:
