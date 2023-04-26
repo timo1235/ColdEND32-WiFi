@@ -11,7 +11,9 @@
 
 */
 
-extern DATA_TO_COLDEND dataToControl;
+#include <protocol.h>
+
+extern DATA_TO_COLDEND dataToColdEnd;
 
 void switchStat();
 
