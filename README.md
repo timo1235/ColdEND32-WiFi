@@ -6,6 +6,10 @@ This firmware works 100% the same as the original firmware, but adds the ability
 The buttons can be used in parallel, meaning you can switch them on the wifi panel or directly connected to the coldend32 at the same time.
 The potis can only be used via wifi OR directly connected to the coldend32, not both at the same time. The software decides on its own which one to use. Meaning, if there is a wifi connection and the potis are connected to the esp32 panel, the potis directly connected will be ignored. It is also possible to only control e.g. the mist poti via wifi and the spit poti directly connected to the coldend32.
 
+### How to use
+
+To control the coldend32 via wifi check out the ESP32 Panel project: [ESP32 Panel Software](https://github.com/timo1235/-ocs2.x-esp32-panel-software-)
+
 ### Changes to the original firmware:
 
 - Changed project structure for compatibility to platformio
