@@ -124,7 +124,7 @@ void potVals() {
         uint16_t spit_poti_value;
 #ifdef USE_WIFI
         if (dataToColdEnd.command.setPotSpit) {
-            spit_poti_value = dataToColdEnd.pot_mist;
+            spit_poti_value = dataToColdEnd.pot_spit;
         } else {
             spit_poti_value = analogRead(POT_SPIT);
         }
